@@ -1,0 +1,377 @@
+:root {
+  --ink: #173042;
+  --muted: #61717d;
+  --line: #d9e0e4;
+  --paper: #f7f9f8;
+  --green: #1d6b5b;
+  --coral: #c95f45;
+  --gold: #d5a339;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+section {
+  scroll-margin-top: 86px;
+}
+
+.navbar {
+  background: rgba(23, 48, 66, 0.97);
+  box-shadow: 0 12px 32px rgba(11, 31, 45, 0.18);
+}
+
+.navbar-brand {
+  letter-spacing: 0;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.nav-portfolio {
+  color: #ffffff !important;
+  background: var(--coral);
+  border-radius: 8px;
+  padding-inline: 0.9rem !important;
+  margin-left: 0.25rem;
+}
+
+.nav-portfolio:hover {
+  background: #b24f38;
+}
+
+.hero {
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  padding: 110px 0 70px;
+  color: #ffffff;
+  background:
+    linear-gradient(90deg, rgba(16, 44, 62, 0.96), rgba(29, 107, 91, 0.78)),
+    url("assets/cesar-ormeno.jpg") center right / cover;
+}
+
+.hero h1 {
+  max-width: 760px;
+  font-size: clamp(2.6rem, 7vw, 5.8rem);
+  line-height: 0.96;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.hero .lead {
+  max-width: 690px;
+  color: #e9f0ef;
+  font-size: 1.25rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: var(--coral);
+  border-color: var(--coral);
+}
+
+.btn-primary:hover {
+  background: #b24f38;
+  border-color: #b24f38;
+}
+
+.btn-outline-light:hover {
+  color: var(--ink);
+}
+
+.profile-photo {
+  width: min(100%, 390px);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  border: 8px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 28px 70px rgba(6, 23, 35, 0.35);
+  display: block;
+  margin-left: auto;
+}
+
+.section {
+  padding: 88px 0;
+}
+
+.section-muted {
+  background: var(--paper);
+}
+
+.section-heading {
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+.eyebrow {
+  color: var(--coral);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+}
+
+.hero .eyebrow,
+.contact-card .eyebrow {
+  color: #ffd274;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  margin: 0;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 18px 48px rgba(23, 48, 66, 0.08);
+}
+
+.feature-card .card-body {
+  padding: clamp(1.4rem, 4vw, 2.5rem);
+  font-size: 1.12rem;
+  color: #344a58;
+}
+
+.skill-card h3,
+.experience-card h3,
+.project-card h3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+
+.skill-card .card-body,
+.experience-card .card-body,
+.project-card .card-body {
+  padding: 1.5rem;
+}
+
+.skill-card {
+  border-top: 5px solid var(--green);
+}
+
+.skill-card p,
+.experience-card p,
+.project-card p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+.metric-card {
+  min-height: 190px;
+  padding: 1.5rem;
+  border-left: 6px solid var(--gold);
+}
+
+.metric-card span {
+  color: var(--green);
+  display: block;
+  font-size: 2.7rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.metric-card p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.experience-card {
+  border-top: 5px solid var(--coral);
+}
+
+.experience-card h4 {
+  color: var(--green);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.45;
+  margin-bottom: 1rem;
+}
+
+.date {
+  color: var(--coral) !important;
+  font-weight: 800;
+  margin-bottom: 0.75rem !important;
+}
+
+.project-card {
+  background: linear-gradient(180deg, #ffffff, #fbfcfc);
+}
+
+.project-card h3 {
+  color: var(--green);
+}
+
+.portfolio-card {
+  overflow: hidden;
+  border-top: 5px solid var(--green);
+}
+
+.portfolio-card .card-body {
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5rem;
+}
+
+.portfolio-card h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin: 0.8rem 0;
+}
+
+.portfolio-card p {
+  color: var(--muted);
+  flex: 1;
+  margin-bottom: 1.3rem;
+}
+
+.repo-language {
+  color: var(--green);
+  background: #e6f1ee;
+  border-radius: 8px;
+  display: inline-flex;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 0.35rem 0.65rem;
+}
+
+.portfolio-card-featured {
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--green), var(--ink));
+  border-color: transparent;
+}
+
+.portfolio-card-featured p,
+.portfolio-card-featured .repo-language {
+  color: #ffffff;
+}
+
+.portfolio-card-featured .repo-language {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.contact-section {
+  background: var(--ink);
+}
+
+.contact-card {
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--green), #173042);
+  border: 0;
+}
+
+.contact-card .card-body {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.contact-card h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-card p {
+  color: #dbe8e5;
+  margin-bottom: 0;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+  min-width: min(100%, 310px);
+}
+
+.contact-links a {
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.contact-links a:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+footer {
+  color: #dbe8e5;
+  background: #102636;
+  padding: 1.2rem 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .hero {
+    min-height: auto;
+    text-align: center;
+  }
+
+  .hero .lead {
+    margin-inline: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .profile-photo {
+    margin: 0 auto;
+  }
+
+  .contact-card .card-body {
+    flex-direction: column;
+  }
+
+  .nav-portfolio {
+    display: inline-block;
+    margin: 0.4rem 0 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .section {
+    padding: 64px 0;
+  }
+
+  .hero {
+    padding-top: 96px;
+  }
+
+  .btn-lg {
+    width: 100%;
+  }
+}
