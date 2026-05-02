@@ -1,3 +1,17 @@
+## GitHub Pages
+
+Sitio publicado: https://cesarscl.github.io/
+
+
+## Fork
+
+Se realiza fork de proyectos de @Rodgarhel y @wilkenymontero01-hash, aplicando cambios mediante commits y pull request como parte de la evaluacion.
+
+## Evidencia
+
+![alt text](assets/img/evidencia-pull/evidencia1.png)
+![alt text](assets/img/evidencia-pull/evidencia2.png)
+
 # Curriculum Vitae / Portafolio
 
 Proyecto desarrollado para el Bootcamp de Desafio Latam como evaluacion final de la primera unidad. El sitio presenta un Curriculum Vitae web junto con un portafolio de proyectos, aplicando estructura HTML, estilos personalizados y componentes responsive con Bootstrap.
@@ -52,11 +66,6 @@ El sitio incluye secciones de resumen profesional, competencias, resultados, exp
 - `landing_cupon`: proyecto tipo landing inspirado en cupones.
 - `flexbox_iguana`: pagina construida con Flexbox para practicar layout y distribucion visual.
 
-## Fork
 
-Se realiza fork de proyectos de @Rodgarhel y @wilkenymontero01-hash, aplicando cambios mediante commits y pull request como parte de la evaluacion.
 
-## Evidencia
 
-![alt text](assets/img/evidencia-pull/evidencia1.png)
-![alt text](assets/img/evidencia-pull/evidencia2.png)
