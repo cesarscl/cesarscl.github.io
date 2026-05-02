@@ -55,7 +55,7 @@ section {
   color: #ffffff;
   background:
     linear-gradient(90deg, rgba(16, 44, 62, 0.96), rgba(29, 107, 91, 0.78)),
-    url("assets/cesar-ormeno.jpg") center right / cover;
+    url("../img/cesar-ormeno.jpg") center right / cover;
 }
 
 .hero h1 {
@@ -231,8 +231,20 @@ h2 {
   border-top: 5px solid var(--green);
 }
 
+.portfolio-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #e6f1ee;
+  border-bottom: 1px solid var(--line);
+}
+
+.portfolio-avatar {
+  object-position: center;
+}
+
 .portfolio-card .card-body {
-  min-height: 280px;
+  min-height: 260px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
