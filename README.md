@@ -1,6 +1,13 @@
 # Mi Ecommerce
 
-Proyecto de maquetación de una página de e-commerce desarrollada con HTML y CSS. La interfaz muestra una tienda simple con barra superior, menú lateral de categorías, grilla de productos y footer.
+Proyecto de maquetación de una página de e-commerce desarrollada con HTML y CSS. La pagina muestra una tienda simple con barra superior, menú lateral de categorías, grilla de productos y footer.
+
+## Cómo visualizar el proyecto
+
+Puedes acceder directamente al proyecto a traves de la direccion:
+
+https://cesarscl.github.io
+
 
 ## Vista general
 
@@ -36,11 +43,6 @@ El sitio incluye:
         └── zapatos-docker.jpg
 ```
 
-## Cómo visualizar el proyecto
-
-Abre el archivo `index.htm` directamente en el navegador.
-
-También puedes usar la extensión Live Server de Visual Studio Code para levantar una vista local del sitio.
 
 ## Objetivo del desafío
 
@@ -48,4 +50,4 @@ Practicar la creación de layouts con CSS Grid, combinando áreas de página com
 
 ## Autor
 
-Proyecto desarrollado como parte del módulo de Fullstack JavaScript de Desafío Latam.
+Proyecto desarrollado por Cesar Ormeño como parte del módulo de Fullstack JavaScript de Desafío Latam.
