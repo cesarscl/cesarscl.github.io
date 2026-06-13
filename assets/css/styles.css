@@ -284,6 +284,11 @@ h2 {
   isolation: isolate;
 }
 
+.gallery-item:focus-visible {
+  outline: 4px solid var(--gold);
+  outline-offset: 4px;
+}
+
 .gallery-item-wide {
   grid-column: span 2;
 }

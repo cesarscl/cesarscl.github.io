@@ -1,21 +1,14 @@
+# Curriculum Vitae / Portafolio
+
+Proyecto desarrollado como prueba final del Modulo 2: CSS Avanzado del Bootcamp FullStack JS de Desafio Latam. El sitio presenta un Curriculum Vitae web junto con un portafolio de proyectos, aplicando estructura HTML, estilos personalizados, componentes responsive con Bootstrap, transiciones, transformaciones y animaciones CSS.
+
+Evaluacion: Animaciones con CSS.
+
 ## Acceso al proyecto
 
 Puedes visitar el proyecto publicado en el siguiente enlace:
 
 [https://cesarscl.github.io/](https://cesarscl.github.io/)
-
-## Fork
-
-Se realiza fork de proyectos de @Rodgarhel y @wilkenymontero01-hash, aplicando cambios mediante commits y pull request como parte de la evaluacion.
-
-## Evidencia
-
-![alt text](assets/img/evidencia-pull/evidencia1.png)
-![alt text](assets/img/evidencia-pull/evidencia2.png)
-
-# Curriculum Vitae / Portafolio
-
-Proyecto desarrollado para el Bootcamp de Desafio Latam como evaluacion final de la primera unidad. El sitio presenta un Curriculum Vitae web junto con un portafolio de proyectos, aplicando estructura HTML, estilos personalizados y componentes responsive con Bootstrap.
 
 ## Descripcion
 
@@ -53,13 +46,24 @@ El sitio incluye secciones de resumen profesional, competencias, resultados, exp
 ## Caracteristicas
 
 - Diseno responsive usando Bootstrap.
-- Barra de navegacion con enlaces internos.
+- Menu lateral fijo en escritorio y menu superior en dispositivos pequenos.
+- Logo visible en el menu de navegacion.
 - Hero principal con fotografia de perfil.
+- Galeria principal de imagenes con efecto hover: filtro en blanco y negro, retorno a color, escala y rotacion suave.
 - Secciones organizadas para informacion profesional.
 - Cards para competencias, experiencia y proyectos.
 - Portafolio con enlaces a repositorios de GitHub.
 - Estilos personalizados en `assets/css/styles.css`.
 - Imagenes organizadas en `assets/img`.
+- Footer con informacion de contacto, enlaces sociales y layout responsive.
+
+## Cumplimiento de la rubrica
+
+- Menu lateral con enlaces a secciones, logo y diseno con Flexbox en escritorio; en pantallas pequenas se ubica en la parte superior.
+- Secciones, galeria, footer y navegacion se ajustan con media queries para escritorio, tablet y movil.
+- Galeria de imagenes implementada con CSS Grid, transiciones, transformaciones y filtros visuales.
+- Footer con correo, telefono, LinkedIn y GitHub, organizado con CSS Grid y ajustes responsive.
+- Apariencia visual coherente mediante paleta de colores, espaciados, cards, botones y estados hover/focus.
 
 ## Proyectos agregados al portafolio
 
@@ -67,5 +71,9 @@ El sitio incluye secciones de resumen profesional, competencias, resultados, exp
 - `landing_cupon`: proyecto tipo landing inspirado en cupones.
 - `flexbox_iguana`: pagina construida con Flexbox para practicar layout y distribucion visual.
 
+## Evidencia de colaboracion
 
+Se incluyen capturas de evidencia en `assets/img/evidencia-pull`, correspondientes al trabajo con forks, commits y pull requests realizado durante el desarrollo del modulo.
 
+![Evidencia pull request 1](assets/img/evidencia-pull/evidencia1.png)
+![Evidencia pull request 2](assets/img/evidencia-pull/evidencia2.png)
