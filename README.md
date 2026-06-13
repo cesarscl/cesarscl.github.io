@@ -71,9 +71,3 @@ El sitio incluye secciones de resumen profesional, competencias, resultados, exp
 - `landing_cupon`: proyecto tipo landing inspirado en cupones.
 - `flexbox_iguana`: pagina construida con Flexbox para practicar layout y distribucion visual.
 
-## Evidencia de colaboracion
-
-Se incluyen capturas de evidencia en `assets/img/evidencia-pull`, correspondientes al trabajo con forks, commits y pull requests realizado durante el desarrollo del modulo.
-
-![Evidencia pull request 1](assets/img/evidencia-pull/evidencia1.png)
-![Evidencia pull request 2](assets/img/evidencia-pull/evidencia2.png)
