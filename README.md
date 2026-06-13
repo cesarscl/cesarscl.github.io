@@ -1,6 +1,6 @@
 # Curriculum Vitae / Portafolio
 
-Proyecto desarrollado como prueba final del Modulo 2: CSS Avanzado del Bootcamp FullStack JS de Desafio Latam. El sitio presenta un Curriculum Vitae web junto con un portafolio de proyectos, aplicando estructura HTML, estilos personalizados, componentes responsive con Bootstrap, transiciones, transformaciones y animaciones CSS.
+Proyecto desarrollado como prueba final del Modulo 2: CSS Avanzado del Bootcamp FullStack JS de Desafio Latam. El sitio presenta un Curriculum Vitae web junto con un portafolio de proyectos, aplicando estructura HTML, estilos personalizados, responsive design, transiciones, transformaciones y animaciones CSS.
 
 Evaluacion: Animaciones con CSS.
 
@@ -20,7 +20,6 @@ El sitio incluye secciones de resumen profesional, competencias, resultados, exp
 
 - HTML5
 - CSS3
-- Bootstrap 5.3
 - Git y GitHub
 - GitHub Pages
 
@@ -36,7 +35,7 @@ El sitio incluye secciones de resumen profesional, competencias, resultados, exp
     └── img
         ├── cesar-ormeno.jpg
         ├── flexbox-iguana.jpg
-        ├── landing-bootstrap.jpg
+        ├── landing-css.jpg
         ├── landing-cupon.jpg
         └── evidencia-pull
             ├── evidencia1.png
@@ -45,7 +44,7 @@ El sitio incluye secciones de resumen profesional, competencias, resultados, exp
 
 ## Caracteristicas
 
-- Diseno responsive usando Bootstrap.
+- Diseno responsive usando CSS propio.
 - Menu lateral fijo en escritorio y menu superior en dispositivos pequenos.
 - Logo visible en el menu de navegacion.
 - Hero principal con fotografia de perfil.
@@ -67,7 +66,6 @@ El sitio incluye secciones de resumen profesional, competencias, resultados, exp
 
 ## Proyectos agregados al portafolio
 
-- `landing_bootstrap`: landing page turistica desarrollada con Bootstrap.
+- `landing_bootstrap`: landing page turistica.
 - `landing_cupon`: proyecto tipo landing inspirado en cupones.
 - `flexbox_iguana`: pagina construida con Flexbox para practicar layout y distribucion visual.
-
